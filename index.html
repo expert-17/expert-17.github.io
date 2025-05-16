@@ -12,6 +12,7 @@
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
       <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
       <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <link href="css/cards.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
       <!-- Navbar -->
@@ -54,7 +55,7 @@
       </div>
       <!-- End Portfolio-Text -->
       <!-- Gallery -->
-      <div class="scrollblock">
+      <!-- <div class="scrollblock">
          <div class="container-fluid pt-10">
             <div class="row justify-content-md-center ">
                <div class="col-md-10 col-sm-12">
@@ -143,35 +144,47 @@
                            </a>
                         </div>
                      </div>
-                     <!-- <div class="card card-hover h-100">
-                        <div class="card-body">
-                           <a href="index.html">
-                              <img class="card-img-top" src="img/photo-8.jpg" alt="Card image cap">
-                              <div class="reveal h-100 p-2 d-flex ">
-                                 <div class="w-100 align-self-center">
-                                    <p>Donec rutrum congue</p>
-                                 </div>
-                              </div>
-                           </a>
-                        </div>
-                     </div> -->
-                     <!-- <div class="card card-hover h-100">
-                        <div class="card-body">
-                           <a href="index.html">
-                              <img class="card-img-top" src="img/photo-9.jpg" alt="Card image cap">
-                              <div class="reveal h-100 p-2 d-flex ">
-                                 <div class="w-100 align-self-center">
-                                    <p>Magna eget rutrum</p>
-                                 </div>
-                              </div>
-                           </a>
-                        </div>
-                     </div> -->
                   </div>
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
+
+      <section class="card-grid">
+         <div class="card">
+           <img src="img/Acwengile.png" alt="Content Creation"  class="card-img" onclick="openModal(this)">
+           <h3>Content Creation</h3>
+         </div>
+         <div class="card">
+           <img src="img/Megan Gallie.png" alt="Influencer Management"  class="card-img" onclick="openModal(this)">
+           <h3>Influencer Management</h3>
+         </div>
+         <div class="card">
+           <img src="img/Somesay.png" alt="Video Production"  class="card-img" onclick="openModal(this)">
+           <h3>Video Production</h3>
+         </div>
+       </section>
+
+       <section class="card-grid">
+         <div class="card">
+           <img src="img/Bernini.jpg" alt="Content Creation"  class="card-img" onclick="openModal(this)">
+           <h3>Content Creation</h3>
+         </div>
+         <div class="card">
+           <img src="img/Tumi knect.png" alt="Influencer Management"  class="card-img" onclick="openModal(this)">
+           <h3>Influencer Management</h3>
+         </div>
+         <div class="card">
+           <img src="img/Sobekwa twins.jpg" alt="Video Production"  class="card-img" onclick="openModal(this)">
+           <h3>Video Production</h3>
+         </div>
+       </section>
+
+       <div id="imageModal" class="modal" onclick="closeModal()">
+         <span class="close">&times;</span>
+         <img class="modal-content" id="modalImage">
+       </div>
+
       <!-- End Gallery -->
       <!-- Footer -->
       <div class="container-fluid footer ">
