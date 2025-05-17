@@ -69,4 +69,14 @@
   .close:hover {
     color: #ccc;
   }
+
+  @media screen and (max-width: 600px) {
+    .modal-content {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      max-height: auto;
+    }
+    
+  }
   
