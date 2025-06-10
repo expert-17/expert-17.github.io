@@ -2,9 +2,8 @@
     overflow: hidden;
     width: 100%;
     max-width: 1200px;
-    /* border: 1px solid #ccc; */
     border-radius: 10px;
-    background-color: black
+    background-color: black;
 }
 
 .carousel-track {
@@ -13,9 +12,18 @@
 }
 
 .carousel-logo {
-    width: 150px;
-    height: auto;
+    width: 250px;
+    height: 80px;
     margin: 10px;
+    /* --- ADDED FOR GRAYSCALE --- */
+    filter: grayscale(100%); /* Applies a full grayscale filter */
+    /* --- Optional: Add a transition for smooth hover effects --- */
+    transition: filter 0.3s ease-in-out;
+}
+
+/* --- Optional: Revert to color on hover --- */
+.carousel-logo:hover {
+    filter: grayscale(0%); /* Removes the grayscale filter on hover */
 }
 
 @keyframes scroll {
