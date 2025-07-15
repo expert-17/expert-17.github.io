@@ -6,7 +6,7 @@
 /* Basic */
 
 body {
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.923);
 }
 
 html {
@@ -109,7 +109,7 @@ h2 {
 .container a:after {
 	content: '';
 	position: absolute;
-	background: #000;
+	background: #00000078;
 	height: 2px;
 	width: 0%;
 	transform: translateX(-50%);
