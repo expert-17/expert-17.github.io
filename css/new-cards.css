@@ -7,7 +7,7 @@
  
  /* ===== CARD SECTION ===== */
     .card-section {
-      background: #111;
+      background: #1111111d;
       padding: 60px 20px;
       display: grid;
       grid-template-rows: repeat(3, auto);
